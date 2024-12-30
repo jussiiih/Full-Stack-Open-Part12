@@ -1,0 +1,208 @@
+Script started on 2024-12-30 10:04:38+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+# ^[[A^[[A^H ^H^H ^H^H ^H^H ^H^H ^H^H ^H^H ^H^H ^H^[[A^H ^H^H ^H^H ^H^H ^He^H ^Hapt-^H ^H-get -y ist^H ^H^H ^Hnstall nano^H ^H^H ^H^>^MReading package lists... 0%^M^MReading package lists... 0%^M^MReading package lists... 0%^M^MReading package lists... 6%^M^MReadin>^MBuilding dependency tree... 0%^M^MBuilding dependency tree... 0%^M^MBuilding dependency tree... 50%^M^MBuilding dependency tree...>^MReading state information... 0% ^M^MReading state information... 3%^M^MReading state information... Done^M
+curl is already the newest version (8.5.0-2ubuntu10.6).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+# curl -sL https://deb.nodesource.com/setup_20.x | bash
+apt install -y nodejs^[[38;5;79m2024-12-30 10:05:23 - Installing pre-requisites^[[0m
+^M0% [Working]^M            ^MHit:1 http://security.ubuntu.com/ubuntu noble-security InRelease
+^M0% [Waiting for headers]^M                        ^MHit:2 http://archive.ubuntu.com/ubuntu noble InRelease
+^M0% [Waiting for headers]^M0% [Waiting for headers]^M0% [Waiting for headers]^M                        ^MHit:3 http://archive.ubunt>^M                        ^M0% [Working]^M0% [Waiting for headers]^M                        ^MHit:4 http://archive.ubuntu.com/ubuntu>^M                        ^M0% [Working]^M20% [Working]^M             ^M^MReading package lists... 0%^M^MReading package lists... 0%>^MReading package lists... 0%^M^MReading package lists... 0%^M^MReading package lists... 0%^M^MReading package lists... 6%^M^MReadin>^MBuilding dependency tree... 0%^M^MBuilding dependency tree... 0%^M^MBuilding dependency tree... 50%^M^MBuilding dependency tree...>^MReading state information... 0% ^M^MReading state information... 3%^M^MReading state information... Done^M
+ca-certificates is already the newest version (20240203).
+ca-certificates set to manually installed.
+curl is already the newest version (8.5.0-2ubuntu10.6).
+The following additional packages will be installed:
+  adduser dirmngr gnupg-l10n gnupg-utils gpg gpg-agent gpg-wks-client gpgconf gpgsm keyboxd libksba8 libreadline8t64
+  libsqlite3-0 pinentry-curses readline-common
+Suggested packages:
+  liblocale-gettext-perl perl cron quota ecryptfs-utils dbus-user-session libpam-systemd pinentry-gnome3 tor
+  parcimonie xloadimage gpg-wks-server scdaemon pinentry-doc readline-doc
+The following NEW packages will be installed:
+  adduser apt-transport-https dirmngr gnupg gnupg-l10n gnupg-utils gpg gpg-agent gpg-wks-client gpgconf gpgsm keyboxd
+  libksba8 libreadline8t64 libsqlite3-0 pinentry-curses readline-common
+0 upgraded, 17 newly installed, 0 to remove and 0 not upgraded.
+Need to get 3305 kB of archives.
+After this operation, 8326 kB of additional disk space will be used.
+^M0% [Working]^M            ^MGet:1 http://archive.ubuntu.com/ubuntu noble/main amd64 adduser all 3.137ubuntu1 [101 kB]
+^M0% [1 adduser 1156 B/101 kB 1%]^M                               ^M4% [Working]^M            ^MGet:2 http://archive.ubuntu.com/ubun>^M4% [2 readline-common 1158 B/56.5 kB 2%]^M                                        ^M6% [Waiting for headers]^M                    >^M6% [3 libreadline8t64 3182 B/153 kB 2%]^M                                       ^M11% [Waiting for headers]^M                     >^M11% [4 libsqlite3-0 588 B/701 kB 0%]^M                                    ^M29% [Waiting for headers]^M                         ^M>^M29% [5 apt-transport-https 486 B/3974 B 12%]^M                                            ^M30% [Waiting for headers]^M           >^M30% [6 gpgconf 228 B/103 kB 0%]^M                               ^M34% [Waiting for headers]^M                         ^MGet:7 http>^M34% [7 libksba8 0 B/122 kB 0%]^M                              ^M38% [Waiting for headers]^M                         ^MGet:8 http:/>^M38% [8 dirmngr 1814 B/323 kB 1%]^M                                ^M47% [Working]^M             ^MGet:9 http://archive.ubuntu.com/>^M47% [9 gnupg-utils 0 B/108 kB 0%]^M                                 ^M51% [Waiting for headers]^M                         ^MGet:10>^M51% [10 gpg 612 B/565 kB 0%]^M                            ^M66% [Waiting for headers]^M                         ^MGet:11 http://ar>^M66% [11 pinentry-curses 2728 B/35.2 kB 8%]^M                                          ^M68% [Waiting for headers]^M               >^M68% [12 gpg-agent 6256 B/227 kB 3%]^M                                   ^M75% [Waiting for headers]^M                         ^MGe>^M75% [13 gpgsm 2800 B/232 kB 1%]^M                               ^M81% [Waiting for headers]^M                         ^MGet:14 htt>^M82% [14 keyboxd 7457 B/78.3 kB 10%]^M                                   ^M84% [Waiting for headers]^M                         ^MGe>^M85% [15 gnupg 6222 B/359 kB 2%]^M                               ^M94% [Working]^M             ^MGet:16 http://archive.ubuntu.com/u>^M94% [16 gnupg-l10n 247 B/65.9 kB 0%]^M                                    ^M97% [Waiting for headers]^M                         ^M>^M97% [17 gpg-wks-client 4813 B/70.9 kB 7%]^M                                         ^M100% [Working]^M              ^MFetched 3305>debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package adduser.^M
+(Reading database ... ^M(Reading database ... 5%^M(Reading database ... 10%^M(Reading database ... 15%^M(Reading database ... 20%^M(>Preparing to unpack .../adduser_3.137ubuntu1_all.deb ...^M
+Unpacking adduser (3.137ubuntu1) ...^M
+Setting up adduser (3.137ubuntu1) ...^M
+Selecting previously unselected package readline-common.^M
+(Reading database ... ^M(Reading database ... 5%^M(Reading database ... 10%^M(Reading database ... 15%^M(Reading database ... 20%^M(>Preparing to unpack .../00-readline-common_8.2-4build1_all.deb ...^M
+Unpacking readline-common (8.2-4build1) ...^M
+Selecting previously unselected package libreadline8t64:amd64.^M
+Preparing to unpack .../01-libreadline8t64_8.2-4build1_amd64.deb ...^M
+Adding 'diversion of /lib/x86_64-linux-gnu/libhistory.so.8 to /lib/x86_64-linux-gnu/libhistory.so.8.usr-is-merged by libreadline8t64>Adding 'diversion of /lib/x86_64-linux-gnu/libhistory.so.8.2 to /lib/x86_64-linux-gnu/libhistory.so.8.2.usr-is-merged by libreadline>Adding 'diversion of /lib/x86_64-linux-gnu/libreadline.so.8 to /lib/x86_64-linux-gnu/libreadline.so.8.usr-is-merged by libreadline8t>Adding 'diversion of /lib/x86_64-linux-gnu/libreadline.so.8.2 to /lib/x86_64-linux-gnu/libreadline.so.8.2.usr-is-merged by libreadli>Unpacking libreadline8t64:amd64 (8.2-4build1) ...^M
+Selecting previously unselected package libsqlite3-0:amd64.^M
+Preparing to unpack .../02-libsqlite3-0_3.45.1-1ubuntu2_amd64.deb ...^M
+Unpacking libsqlite3-0:amd64 (3.45.1-1ubuntu2) ...^M
+Selecting previously unselected package apt-transport-https.^M
+Preparing to unpack .../03-apt-transport-https_2.7.14build2_all.deb ...^M
+Unpacking apt-transport-https (2.7.14build2) ...^M
+Selecting previously unselected package gpgconf.^M
+Preparing to unpack .../04-gpgconf_2.4.4-2ubuntu17_amd64.deb ...^M
+Unpacking gpgconf (2.4.4-2ubuntu17) ...^M
+Selecting previously unselected package libksba8:amd64.^M
+Preparing to unpack .../05-libksba8_1.6.6-1build1_amd64.deb ...^M
+Unpacking libksba8:amd64 (1.6.6-1build1) ...^M
+Selecting previously unselected package dirmngr.^M
+Preparing to unpack .../06-dirmngr_2.4.4-2ubuntu17_amd64.deb ...^M
+Unpacking dirmngr (2.4.4-2ubuntu17) ...^M
+Selecting previously unselected package gnupg-utils.^M
+Preparing to unpack .../07-gnupg-utils_2.4.4-2ubuntu17_amd64.deb ...^M
+Unpacking gnupg-utils (2.4.4-2ubuntu17) ...^M
+Selecting previously unselected package gpg.^M
+Preparing to unpack .../08-gpg_2.4.4-2ubuntu17_amd64.deb ...^M
+Unpacking gpg (2.4.4-2ubuntu17) ...^M
+Selecting previously unselected package pinentry-curses.^M
+Preparing to unpack .../09-pinentry-curses_1.2.1-3ubuntu5_amd64.deb ...^M
+Unpacking pinentry-curses (1.2.1-3ubuntu5) ...^M
+Selecting previously unselected package gpg-agent.^M
+Preparing to unpack .../10-gpg-agent_2.4.4-2ubuntu17_amd64.deb ...^M
+Unpacking gpg-agent (2.4.4-2ubuntu17) ...^M
+Selecting previously unselected package gpgsm.^M
+Preparing to unpack .../11-gpgsm_2.4.4-2ubuntu17_amd64.deb ...^M
+Unpacking gpgsm (2.4.4-2ubuntu17) ...^M
+Selecting previously unselected package keyboxd.^M
+Preparing to unpack .../12-keyboxd_2.4.4-2ubuntu17_amd64.deb ...^M
+Unpacking keyboxd (2.4.4-2ubuntu17) ...^M
+Selecting previously unselected package gnupg.^M
+Preparing to unpack .../13-gnupg_2.4.4-2ubuntu17_all.deb ...^M
+Unpacking gnupg (2.4.4-2ubuntu17) ...^M
+Selecting previously unselected package gnupg-l10n.^M
+Preparing to unpack .../14-gnupg-l10n_2.4.4-2ubuntu17_all.deb ...^M
+Unpacking gnupg-l10n (2.4.4-2ubuntu17) ...^M
+Selecting previously unselected package gpg-wks-client.^M
+Preparing to unpack .../15-gpg-wks-client_2.4.4-2ubuntu17_amd64.deb ...^M
+Unpacking gpg-wks-client (2.4.4-2ubuntu17) ...^M
+Setting up libksba8:amd64 (1.6.6-1build1) ...^M
+Setting up pinentry-curses (1.2.1-3ubuntu5) ...^M
+Setting up apt-transport-https (2.7.14build2) ...^M
+Setting up libsqlite3-0:amd64 (3.45.1-1ubuntu2) ...^M
+Setting up gnupg-l10n (2.4.4-2ubuntu17) ...^M
+Setting up readline-common (8.2-4build1) ...^M
+Setting up gnupg-utils (2.4.4-2ubuntu17) ...^M
+Setting up libreadline8t64:amd64 (8.2-4build1) ...^M
+Setting up gpgconf (2.4.4-2ubuntu17) ...^M
+Setting up gpg (2.4.4-2ubuntu17) ...^M
+Setting up gpg-agent (2.4.4-2ubuntu17) ...^M
+Setting up gpgsm (2.4.4-2ubuntu17) ...^M
+Setting up dirmngr (2.4.4-2ubuntu17) ...^M
+Setting up keyboxd (2.4.4-2ubuntu17) ...^M
+Setting up gnupg (2.4.4-2ubuntu17) ...^M
+Setting up gpg-wks-client (2.4.4-2ubuntu17) ...^M
+Processing triggers for libc-bin (2.39-0ubuntu8.3) ...^M
+^M0% [Working]^M            ^MGet:1 https://deb.nodesource.com/node_20.x nodistro InRelease [12.1 kB]
+^M0% [1 InRelease 882 B/12.1 kB 7%] [Connecting to archive.ubuntu.com (91.189.91.81)] [Connecting to security.ubuntu.com ^M         >^M0% [2 Packages 3624 B/9783 B 37%] [Waiting for headers] [Waiting for headers]^M                                                   >^M                                              ^M0% [Waiting for headers]^M                        ^MHit:4 http://archive.ubuntu.co>^M                        ^M0% [Working]^M0% [Waiting for headers]^M0% [Waiting for headers]^M                        ^MHit:5 http:/>^M                        ^M0% [Working]^M0% [Waiting for headers]^M                        ^MHit:6 http://archive.ubuntu.com/ubuntu>^M                        ^M0% [Working]^M100% [Working]^M              ^MFetched 21.9 kB in 1s (35.2 kB/s)
+
+^MReading package lists... 0%^M^MReading package lists... 0%^M^MReading package lists... 0%^M^MReading package lists... 0%^M^MReadin>^[[1;34m2024-12-30 10:05:30 - Repository configured successfully.^[[0m
+^[[38;5;79m2024-12-30 10:05:30 - To install Node.js, run: apt-get install nodejs -y^[[0m
+^[[38;5;79m2024-12-30 10:05:30 - You can use N|solid Runtime as a node.js alternative^[[0m
+^[[1;32m2024-12-30 10:05:30 - To install N|solid Runtime, run: apt-get install nsolid -y
+^[[0m
+# node /usr/src/app/index.js
+^MReading package lists... 0%^M^MReading package lists... 0%^M^MReading package lists... 0%^M^MReading package lists... 0%^M^MReadin>^[[1;31mE: ^[[0mUnsupported file /usr/src/app/index.js given on commandline^[[0m
+# ls
+bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  typescript  usr  var
+# apt-get install nodejs -y
+^MReading package lists... 0%^M^MReading package lists... 0%^M^MReading package lists... 0%^M^MReading package lists... 0%^M^MReadin>^MBuilding dependency tree... 0%^M^MBuilding dependency tree... 0%^M^MBuilding dependency tree... 50%^M^MBuilding dependency tree...>^MReading state information... 0% ^M^MReading state information... 2%^M^MReading state information... Done^M
+The following packages were automatically installed and are no longer required:
+  libcares2 libicu74 libuv1t64 node-busboy node-cjs-module-lexer node-undici node-xtend
+Use 'apt autoremove' to remove them.
+The following additional packages will be installed:
+  libexpat1 libpython3-stdlib libpython3.12-minimal libpython3.12-stdlib media-types netbase python3 python3-minimal
+  python3.12 python3.12-minimal tzdata
+Suggested packages:
+  python3-doc python3-tk python3-venv python3.12-venv python3.12-doc binutils binfmt-support
+The following packages will be REMOVED:
+  libnode109 node-acorn nodejs-doc
+The following NEW packages will be installed:
+  libexpat1 libpython3-stdlib libpython3.12-minimal libpython3.12-stdlib media-types netbase python3 python3-minimal
+  python3.12 python3.12-minimal tzdata
+
+The following packages will be upgraded:
+  nodejs
+1 upgraded, 11 newly installed, 3 to remove and 0 not upgraded.
+Need to get 38.1 MB of archives.
+After this operation, 154 MB of additional disk space will be used.
+^M0% [Working]^M            ^MGet:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3.12-minimal amd64 3.12.3-1ub>^M0% [Waiting for headers] [1 libpython3.12-minimal 1156 B/834 kB 0%]^M                                                             >^M0% [2 nodejs 835 B/31.8 MB 0%] [1 libpython3.12-minimal 8108 B/834 kB 1%]^M4% [2 nodejs 1701 kB/31.8 MB 5%] [1 libpython3.12-minim>^M16% [2 nodejs 5846 kB/31.8 MB 18%] [3 libexpat1 1157 B/87.4 kB 1%]^M                                                              >^M18% [2 nodejs 5928 kB/31.8 MB 19%] [4 python3.12-minimal 6341 B/2333 kB 0%]^M22% [2 nodejs 6894 kB/31.8 MB 22%] [4 python3.12-mini>^M28% [2 nodejs 7566 kB/31.8 MB 24%] [5 python3-minimal 6018 B/27.4 kB 22%]^M                                                       >^M30% [2 nodejs 7599 kB/31.8 MB 24%] [6 media-types 9800 B/27.5 kB 36%]^M                                                           >^M31% [2 nodejs 7599 kB/31.8 MB 24%] [7 netbase 236 B/13.1 kB 2%]^M                                                               ^M>^M33% [2 nodejs 7615 kB/31.8 MB 24%] [8 tzdata 3632 B/273 kB 1%]^M                                                              ^M35>^M35% [2 nodejs 7697 kB/31.8 MB 24%] [9 libpython3.12-stdlib 5600 B/2068 kB 0%]^M39% [2 nodejs 8156 kB/31.8 MB 26%] [9 libpython3.12>^M43% [2 nodejs 8435 kB/31.8 MB 27%] [10 python3.12 5484 B/651 kB 1%]^M                                                             >^M46% [2 nodejs 8648 kB/31.8 MB 27%] [11 libpython3-stdlib 2790 B/10.0 kB 28%]^M                                                    >^M48% [2 nodejs 8648 kB/31.8 MB 27%] [12 python3 5024 B/23.0 kB 22%]^M                                                              >debconf: delaying package configuration, since apt-utils is not installed
+(Reading database ... ^M(Reading database ... 5%^M(Reading database ... 10%^M(Reading database ... 15%^M(Reading database ... 20%^M(>Removing nodejs-doc (18.19.1+dfsg-6ubuntu5) ...
+dpkg: libnode109:amd64: dependency problems, but removing anyway as you requested:
+ nodejs depends on libnode109 (= 18.19.1+dfsg-6ubuntu5).
+
+Removing libnode109:amd64 (18.19.1+dfsg-6ubuntu5) ...
+(Reading database ... ^M(Reading database ... 5%^M(Reading database ... 10%^M(Reading database ... 15%^M(Reading database ... 20%^M(>
+Preparing to unpack .../nodejs_20.18.1-1nodesource1_amd64.deb ...                                                                    Unpacking nodejs (20.18.1-1nodesource1) over (18.19.1+dfsg-6ubuntu5) ...                                                             (Reading database ... ^M(Reading database ... 5%^M(Reading database ... 10%^M(Reading database ... 15%^M(Reading database ... 20%^M(>Removing node-acorn (8.8.1+ds+~cs25.17.7-2) ...                                                                                      Selecting previously unselected package libpython3.12-minimal:amd64.                                                                 (Reading database ... ^M(Reading database ... 5%^M(Reading database ... 10%^M(Reading database ... 15%^M(Reading database ... 20%^M(>Preparing to unpack .../libpython3.12-minimal_3.12.3-1ubuntu0.3_amd64.deb ...                                                        Unpacking libpython3.12-minimal:amd64 (3.12.3-1ubuntu0.3) ...                                                                        Selecting previously unselected package libexpat1:amd64.                                                                             Preparing to unpack .../libexpat1_2.6.1-2ubuntu0.2_amd64.deb ...                                                                     Unpacking libexpat1:amd64 (2.6.1-2ubuntu0.2) ...                                                                                     Selecting previously unselected package python3.12-minimal.                                                                          Preparing to unpack .../python3.12-minimal_3.12.3-1ubuntu0.3_amd64.deb ...                                                           Unpacking python3.12-minimal (3.12.3-1ubuntu0.3) ...                                                                                 Setting up libpython3.12-minimal:amd64 (3.12.3-1ubuntu0.3) ...                                                                       Setting up libexpat1:amd64 (2.6.1-2ubuntu0.2) ...                                                                                    Setting up python3.12-minimal (3.12.3-1ubuntu0.3) ...                                                                                Selecting previously unselected package python3-minimal.                                                                             (Reading database ... ^M(Reading database ... 5%^M(Reading database ... 10%^M(Reading database ... 15%^M(Reading database ... 20%^M(>Preparing to unpack .../0-python3-minimal_3.12.3-0ubuntu2_amd64.deb ...
+Unpacking python3-minimal (3.12.3-0ubuntu2) ...
+Selecting previously unselected package media-types.
+Preparing to unpack .../1-media-types_10.1.0_all.deb ...
+Unpacking media-types (10.1.0) ...
+Selecting previously unselected package netbase.
+Preparing to unpack .../2-netbase_6.4_all.deb ...
+Unpacking netbase (6.4) ...
+Selecting previously unselected package tzdata.
+Preparing to unpack .../3-tzdata_2024a-3ubuntu1.1_all.deb ...
+Unpacking tzdata (2024a-3ubuntu1.1) ...
+Selecting previously unselected package libpython3.12-stdlib:amd64.
+Preparing to unpack .../4-libpython3.12-stdlib_3.12.3-1ubuntu0.3_amd64.deb ...
+Unpacking libpython3.12-stdlib:amd64 (3.12.3-1ubuntu0.3) ...
+Selecting previously unselected package python3.12.
+Preparing to unpack .../5-python3.12_3.12.3-1ubuntu0.3_amd64.deb ...
+Unpacking python3.12 (3.12.3-1ubuntu0.3) ...
+Selecting previously unselected package libpython3-stdlib:amd64.
+Preparing to unpack .../6-libpython3-stdlib_3.12.3-0ubuntu2_amd64.deb ...
+Unpacking libpython3-stdlib:amd64 (3.12.3-0ubuntu2) ...
+Setting up python3-minimal (3.12.3-0ubuntu2) ...
+Selecting previously unselected package python3.
+(Reading database ... ^M(Reading database ... 5%^M(Reading database ... 10%^M(Reading database ... 15%^M(Reading database ... 20%^M(>Preparing to unpack .../python3_3.12.3-0ubuntu2_amd64.deb ...
+Unpacking python3 (3.12.3-0ubuntu2) ...
+Setting up media-types (10.1.0) ...
+Setting up tzdata (2024a-3ubuntu1.1) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/Front>debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC entries checked: /etc/perl>debconf: falling back to frontend: Teletype
+Configuring tzdata
+------------------
+
+Please select the geographic area in which you live. Subsequent configuration questions will narrow this down by
+presenting a list of cities, representing the time zones in which they are located.
+
+  1. Africa   3. Antarctica  5. Asia      7. Australia  9. Indian    11. Etc
+  2. America  4. Arctic      6. Atlantic  8. Europe     10. Pacific
+Geographic area: 8
+
+Please select the city or region corresponding to your time zone.
+
+  1. Amsterdam   10. Bucharest   19. Isle_of_Man  28. Luxembourg  37. Paris       46. Simferopol  55. Vatican
+  2. Andorra     11. Budapest    20. Istanbul     29. Madrid      38. Podgorica   47. Skopje      56. Vienna
+  3. Astrakhan   12. Busingen    21. Jersey       30. Malta       39. Prague      48. Sofia       57. Vilnius
+  4. Athens      13. Chisinau    22. Kaliningrad  31. Mariehamn   40. Riga        49. Stockholm   58. Volgograd
+  5. Belfast     14. Copenhagen  23. Kirov        32. Minsk       41. Rome        50. Tallinn     59. Warsaw
+  6. Belgrade    15. Dublin      24. Kyiv         33. Monaco      42. Samara      51. Tirane      60. Zagreb
+  7. Berlin      16. Gibraltar   25. Lisbon       34. Moscow      43. San_Marino  52. Tiraspol    61. Zurich
+  8. Bratislava  17. Guernsey    26. Ljubljana    35. Nicosia     44. Sarajevo    53. Ulyanovsk
+  9. Brussels    18. Helsinki    27. London       36. Oslo        45. Saratov     54. Vaduz
+Time zone: 18
+Current default time zone: 'Europe/Helsinki'
+Local time is now:      Mon Dec 30 12:06:55 EET 2024.
+Universal Time is now:  Mon Dec 30 10:06:55 UTC 2024.
+Run 'dpkg-reconfigure tzdata' if you wish to change it.
+
+Setting up netbase (6.4) ...
+Setting up libpython3.12-stdlib:amd64 (3.12.3-1ubuntu0.3) ...
+Setting up python3.12 (3.12.3-1ubuntu0.3) ...
+Setting up libpython3-stdlib:amd64 (3.12.3-0ubuntu2) ...
+Setting up python3 (3.12.3-0ubuntu2) ...
+running python rtupdate hooks for python3.12...
+running python post-rtupdate hooks for python3.12...
+Setting up nodejs (20.18.1-1nodesource1) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.3) ...
+# ^[[A^[[A^H ^H^H ^H^H ^H^H ^H^H ^H^H ^H^H ^H^H ^Hnode /usr/src/app/index.js
+Hello World
+# exit
+
+Script done on 2024-12-30 10:07:13+00:00 [COMMAND_EXIT_CODE="0"]
+
+
